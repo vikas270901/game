@@ -1,0 +1,54 @@
+.li_container{
+	text-align: center;
+	background: yellow;
+	margin: 0px 200px;
+	padding: 30px;
+	height: 400px;
+}
+.main_container{
+	background: black;
+}
+h3{
+	text-align: center;
+	background: blue;
+	height: 50px;
+	width: 1273px;
+	margin: 0 auto;
+	padding:30px;
+	font-size: 40px;
+	color: white;
+}
+button{
+	height: 30px;
+}
+
+.new{
+	padding-top: 10px;
+	background: grey;
+	height: 40px;
+	}
+
+ul{
+	background: yellow;
+	margin: 0px 224px;
+	float: left;
+}
+li{
+	float: right;
+	background: red; 
+	height: 125px;
+	width: 124px;
+	margin: 2px; 
+	border-radius: 10px;
+	list-style: none;
+	box-shadow: 0 2px 2px rgba(0,0,0, 0.5);
+}
+h4{
+	margin: 0 auto;
+	height: 25px;
+	width: 1322.5px;
+	background: black; 
+	color: white;
+	padding:5px;
+}
+
