@@ -1,9 +1,11 @@
+.*{margin: 0 auto;}
 .li_container{
 	text-align: center;
-	background: yellow;
-	margin: 0px 200px;
+	background: black;
+	margin-left: auto;
+	margin-right: auto;
 	padding: 30px;
-	height: 400px;
+	height: 680px;
 }
 .main_container{
 	background: black;
@@ -11,9 +13,8 @@
 h3{
 	text-align: center;
 	background: blue;
-	height: 50px;
-	width: 1273px;
-	margin: 0 auto;
+	height: 15%;
+	margin: auto;
 	padding:30px;
 	font-size: 40px;
 	color: white;
@@ -21,32 +22,33 @@ h3{
 button{
 	height: 30px;
 }
-
 .new{
 	padding-top: 10px;
 	background: grey;
+	margin: auto;
 	height: 40px;
 	}
-
-ul{
+.box{
 	background: yellow;
-	margin: 0px 224px;
-	float: left;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	display: table;
+	width: auto;
 }
-li{
-	float: right;
-	background: red; 
-	height: 125px;
-	width: 124px;
+.box > div{
+	height: 150px;
+	width: 150px;
+	background-color: red;
+	border: 0.2px solid yellow;
+	float: left;
 	margin: 2px; 
-	border-radius: 10px;
-	list-style: none;
+	border-radius: 10%;
 	box-shadow: 0 2px 2px rgba(0,0,0, 0.5);
 }
 h4{
-	margin: 0 auto;
-	height: 25px;
-	width: 1322.5px;
+	margin: auto;
+	height: 100%;
 	background: black; 
 	color: white;
 	padding:5px;
