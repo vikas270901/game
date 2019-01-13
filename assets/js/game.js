@@ -1,5 +1,5 @@
 var constant1 = 1, constant2=0, points=9,final=0;
-$("ul").on("click", "li", function() {
+$(".box").on("click", "div", function() {
 var colours = $(this).css("background-color");
 if(constant1==1){constant1=0;
 constant2 = pass();
@@ -10,8 +10,8 @@ if(colours == constant2){
 final = 9-final;
 $(".h6").html("YOU ARE CORRECT!!!. "+final+" points");
 $(".h6").css("background-color", colours);
-$("li").css("background-color", colours);
-$("li").html("");
+$(".box > div").css("background-color", colours);
+$(".box > div").html("");
 }
 else{
 points=points-1;final=9-points;
@@ -24,7 +24,7 @@ var ha = Math.floor(Math.random()*10);
 var alfa = $("."+ha).css("background-color");
 return (alfa);};
 function shuffle(){
-	$("li").each(function(){
+	$(".box > div").each(function(){
 	var r = Math.floor(Math.random()*300);
 	var g = Math.floor(Math.random()*300);
 	var b = Math.floor(Math.random()*300);
@@ -37,13 +37,6 @@ $(".new").on("click", function(){
 	constant2 = pass();
 	$(".h6").html("Select Again.");
 });
-$("li").ready(function () {
+$(".box > div").ready(function () {
 shuffle();
 });
-/*
-$(".new").on("click", function(){
-	shuffle();
-	constant2 = pass();
-	$(".h6").html("Select Again.");
-});
-*/
